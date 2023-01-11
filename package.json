@@ -1,7 +1,7 @@
 {
   "name": "shopping_cart",
   "version": "0.1.0",
-  "homepage": "https://drzero1234.github.io/odin_shopping_cart/",
+  "homepage": "https://drzero1234.github.io/odin_shopping_cart",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
