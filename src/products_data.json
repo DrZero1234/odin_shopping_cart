@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Richerd",
+        "price": 25.99,
+        "image_url": "https://www.cnet.com/a/img/resize/c5b48e90abe8b7fe339fc0139f3834dbe434fee5/hub/2021/11/29/f566750f-79b6-4be9-9c32-8402f58ba0ef/richerd.png?auto=webp&width=1200"
+    },
+    {
+        "id": 2,
+        "name": "Goblintown wtf",
+        "price": 59.99,
+        "image_url": "https://i.seadn.io/gae/cb_wdEAmvry_noTfeuQzhqKpghhZWQ_sEhuGS9swM03UM8QMEVJrndu0ZRdLFgGVqEPeCUzOHGTUllxug9U3xdvt0bES6VFdkRCKPqg?auto=format&w=256"
+    },
+        {
+        "id": 3,
+        "name": "Valhalla",
+        "price": 75.09,
+        "image_url": "https://i.seadn.io/gcs/files/5a1d11513a373e34dfefd3854e72dc9d.png?auto=format&w=1000"
+    },
+    {
+        "id": 4,
+        "name": "Tabz",
+        "price": 310.99,
+        "image_url": "https://i.seadn.io/gcs/files/46202e77239ed5c05e896b496868004b.png?auto=format&w=1000"
+    },
+    {
+        "id": 5,
+        "name": "Moonrunners",
+        "price": 179.91,
+        "image_url": "https://i.seadn.io/gcs/files/3d270ea49466925b86f6ec3f9f0210be.png?auto=format&w=1920"
+    },
+    {
+        "id": 6,
+        "name": "Wonky Stonks",
+        "price": 333.58,
+        "image_url": "https://i.seadn.io/gae/oghGoOAOJsSHEGV4mF7KdA1AV8uBlyLHG8gox5InT9PZlyxCcQYWBMtuxypn-rBcysyXV-hxUY4QSKEgeMeqOIMTBS4v-UoMgH4r8WI?auto=format&w=1000"
+    },
+    {
+        "id": 7,
+        "name": "Shibiku World",
+        "price": 730.88,
+        "image_url": "https://i.seadn.io/gae/yqNeVCzEYjIaZcHlj8fhDN0aVL5UigQpm7JnU0bFtkmuw7FTdCn_TWhg38alJDdP0V0-dzBkEXaYi7ozIY_BnSkEfpi7fBpPejmF?auto=format&w=1000"
+    },
+    {
+        "id": 8,
+        "name": "ENS Maxis",
+        "price": 98.20,
+        "image_url": "https://i.seadn.io/gcs/files/6c07adaa4076d6e32b3f0e69b92c2587.png?auto=format&w=1000"
+    },
+    {
+        "id": 9,
+        "name": "Lil Pudgy",
+        "price": 948.27,
+        "image_url": "https://i.seadn.io/gae/KvI7c36ZXiREvMWE4DKgpGFRifRgMiZIOLengL-JbZcnoAEPpvbvEV2XGG9g3C7UZkIqvKLw72CQmX5GTWFbLBhgxk-RwvFw5MWoIw?auto=format&w=1000"
+    },
+    {
+        "id": 10,
+        "name": "Numbers in motion",
+        "price": 17.29,
+        "image_url": "https://i.seadn.io/gcs/files/14139052bcc4473207b1a2b93fb6ae68.png?auto=format&w=1000"
+    }
+]
