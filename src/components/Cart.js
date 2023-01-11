@@ -44,7 +44,7 @@ const Cart = ({cart_items,removeItemFromCart,handleItemQuantity}) => {
                                 <h5 class="mb-0">{(cart_item.price * cart_item.quantity).toFixed(2)}€</h5>
                             </div>
                             <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                <img src="delete.png" width={50} height = {50} id={cart_item.id} onClick={removeItemFromCart}/>
+                                <img src="delete.png" width={50} height = {50} id={cart_item.id} onClick={removeItemFromCart} className = "delete-icon"/>
                             </div>
                             </div>
                         </div>
