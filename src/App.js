@@ -20,7 +20,6 @@ const App = () => {
   const addToCart = (event,item) => {
     event.preventDefault();
     setCart([...cart,item]);
-    console.log(cart)
   }
 
   const handleItemQuantity = (index) => (e) => {
