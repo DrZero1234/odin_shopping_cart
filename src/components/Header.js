@@ -1,5 +1,5 @@
 import React from "react";
- import { Link, Route, Routes,BrowserRouter } from "react-router-dom";
+ import { Link, Route, Routes,} from "react-router-dom";
  import Homepage from "./Homepage";
  import Cart from "./Cart";
  import { Products } from "./Products";
