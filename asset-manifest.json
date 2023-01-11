@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/odin_shopping_cart/static/css/main.736c9fa3.css",
-    "main.js": "/odin_shopping_cart/static/js/main.550792f3.js",
+    "main.js": "/odin_shopping_cart/static/js/main.ca08110f.js",
     "static/media/SourceCodePro-VariableFont_wght.ttf": "/odin_shopping_cart/static/media/SourceCodePro-VariableFont_wght.9ef76af760ad69c7256d.ttf",
     "static/media/SueEllenFrancisco-Regular.ttf": "/odin_shopping_cart/static/media/SueEllenFrancisco-Regular.6924178f948511606d40.ttf",
     "static/media/Monofett-Regular.ttf": "/odin_shopping_cart/static/media/Monofett-Regular.6accdc45a0ccb863e648.ttf",
     "index.html": "/odin_shopping_cart/index.html",
     "main.736c9fa3.css.map": "/odin_shopping_cart/static/css/main.736c9fa3.css.map",
-    "main.550792f3.js.map": "/odin_shopping_cart/static/js/main.550792f3.js.map"
+    "main.ca08110f.js.map": "/odin_shopping_cart/static/js/main.ca08110f.js.map"
   },
   "entrypoints": [
     "static/css/main.736c9fa3.css",
-    "static/js/main.550792f3.js"
+    "static/js/main.ca08110f.js"
   ]
 }
