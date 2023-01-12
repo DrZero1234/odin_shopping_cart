@@ -7,6 +7,8 @@ import React from "react";
  import Navbar from "react-bootstrap/Navbar";
  import { Container } from "react-bootstrap";
  import products_data from "../products_data";
+ import Icon from '@mdi/react';
+ import { mdiCart } from '@mdi/js'; 
 
 
  const Header = ({cart_info,addToCart,removeItemFromCart,handleItemQuantity}) => {
@@ -23,13 +25,15 @@ import React from "react";
                     <Nav.Link><Link to="/" >Home </Link></Nav.Link>
                     <Nav.Link><Link to="/products" >Products </Link></Nav.Link>
                     <div className="d-flex flex-column align-items-center">
-                    {cart_info.length > 0 ?
-                        <div className="p-1 border bg-danger bg-gradient rounded-circle">
-                            <span>{cart_info.length} </span>
-                         </div>
-                          : null}
-                        <Nav.Link className="m-0 p-0"><Link to="/cart"  id = "header-icon-wrapper">
-                            <img src="shopping-cart.svg" alt = "Cart" width="64" height = "64" /></Link>
+                        <Nav.Link className="m-0 p-0">
+                            <Link to="/cart"  id = "header-icon-wrapper">
+                                <div class="cart">
+                                {cart_info.length > 0 ? 
+                                <span class="count">{cart_info.length}</span>
+                                : null}
+                                    <Icon path={mdiCart} size = {1.2} data-testid="Cart"/>
+                                </div>
+                            </Link>
                         </Nav.Link>
 
                     </div>

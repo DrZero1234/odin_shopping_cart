@@ -50,7 +50,7 @@ describe("Testing the Products component", () => {
         const cols = container.getElementsByClassName("Col")
         const rows = container.getElementsByClassName("Row")
 
-        const rows_count = Math.floor(mock_data.length / 3) + 1;
+        const rows_count = Math.floor(mock_data.length / 4) + 1;
         expect(cols.length).toBe(mock_data.length)
         expect(rows.length).toBe(rows_count)
         expect(screen.queryByText(/no products/i)).toBeNull()
@@ -113,7 +113,7 @@ describe("Testing the Products component", () => {
         const cols = container.getElementsByClassName("Col")
         const rows = container.getElementsByClassName("Row")
 
-        const rows_count = Math.floor(mock_data.length / 3) + 1;
+        const rows_count = Math.floor(mock_data.length / 4) + 1;
         expect(cols.length).toBe(mock_data.length)
         expect(rows.length).toBe(rows_count)
         expect(screen.queryByText(/no products/i)).toBeNull()

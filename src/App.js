@@ -43,9 +43,9 @@ const App = () => {
     })
   }
 
-  const removeItemFromCart = (e) => {
+  const removeItemFromCart = (id) => {
     let cart_copy = [...cart];
-    const item_index = cart_copy.indexOf(getProduct(+e.target.id));
+    const item_index = cart_copy.indexOf(getProduct(id));
     cart_copy.splice(item_index,1)
     setCart(cart_copy)
     
